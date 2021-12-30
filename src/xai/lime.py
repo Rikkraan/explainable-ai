@@ -36,7 +36,7 @@ class LIME:
         self.perturbation_vectors = self.generate_pertubation_vectors()
 
     def create_super_pixels(
-            self, kernel_size: int = 8, max_dist: int = 1000, ratio: float = 0.
+            self, kernel_size: int = 8, max_dist: int = 1000, ratio: float = 0.2
     ) -> Tuple[np.ndarray, int]:
         """
         Parameters
